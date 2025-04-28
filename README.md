@@ -77,7 +77,7 @@ python mqtt_serial_bridge.py
 ---
 
 ## Demo GIF
-_Add a GIF here showing the full workflow (browser → Arduino)_
+_The Demo will be added after we have the arduino ciruit board showing the full workflow (browser → Arduino)_
 
 ---
 
