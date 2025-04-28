@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Scheduler Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='30' fill='%23510AC9'/><rect x='28' y='14' width='8' height='24' rx='4' fill='white'/><ellipse cx='32' cy='50' rx='10' ry='6' fill='white' opacity='0.6'/></svg>">
+    <meta name="description" content="Web-based IoT dashboard to schedule a light using MQTT and Arduino.">
+    <meta property="og:title" content="Light Scheduler Dashboard">
+    <meta property="og:description" content="Web-based IoT dashboard to schedule a light using MQTT and Arduino.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="screenshot.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Light Scheduler</h1>
+        <form id="schedule-form">
+            <label for="on-time">ON Time:</label>
+            <input type="time" id="on-time" name="on-time" required>
+            <label for="off-time">OFF Time:</label>
+            <input type="time" id="off-time" name="off-time" required>
+            <button type="submit">Submit Schedule</button>
+        </form>
+        <div id="status"></div>
+        <footer style="margin-top:32px;font-size:0.95em;color:#aaa;">Powered by <b>Web-Based Light Scheduler</b> &mdash; <a href="https://github.com/Arn-The-Wolf/Web-based-Light-Scheduler" style="color:#510AC9;text-decoration:none;">GitHub</a></footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
