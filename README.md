@@ -64,8 +64,7 @@ python mqtt_serial_bridge.py
 ---
 
 ## Example UI
-![Screenshot](screenshot.png) <!-- TODO: replace with actual screenshot -->
-
+![alt text](image.png)
 ---
 
 ## How it Works
